@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911611062247",
+    "project_id": "trello-clone-2c7e4",
+    "storage_bucket": "trello-clone-2c7e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911611062247:android:ee39acba7909083ac77f42",
+        "android_client_info": {
+          "package_name": "com.tsdev.trello_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911611062247-ohp56duhfa2smbdoio7kkjbrh18l7utk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tsdev.trello_clone",
+            "certificate_hash": "bf10dab0e68277dca670052b5c0e4b602e334e3f"
+          }
+        },
+        {
+          "client_id": "911611062247-3a7hh22ankqb98gvscchbve85m47kcvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgPosYbjYqTzirQhGnaDKmBuIBwuSYra4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911611062247-3a7hh22ankqb98gvscchbve85m47kcvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
