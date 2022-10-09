@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ProjectManag</string>
     <string name="please_click_back_again_to_exit">Please Click back again</string>
+    <string name="please_wait">Please Wait</string>
 </resources>

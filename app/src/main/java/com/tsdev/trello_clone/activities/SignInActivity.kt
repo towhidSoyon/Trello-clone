@@ -1,7 +1,6 @@
 package com.tsdev.trello_clone.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.WindowManager
@@ -11,7 +10,6 @@ import com.tsdev.trello_clone.R
 import com.tsdev.trello_clone.firebase.FirestoreClass
 import com.tsdev.trello_clone.models.User
 import kotlinx.android.synthetic.main.activity_sign_in.*
-import kotlinx.android.synthetic.main.activity_signup.*
 
 class SignInActivity : BaseActivity() {
 
@@ -62,7 +60,7 @@ class SignInActivity : BaseActivity() {
                 task ->
                 hideProgressDialog()
                 if (task.isSuccessful){
-                    FirestoreClass().signInUser(this)
+                    FirestoreClass().loadUserData(this)
 
                 } else{
                     Toast.makeText(baseContext,"Authentication Failed!!", Toast.LENGTH_SHORT).show()

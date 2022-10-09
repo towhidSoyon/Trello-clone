@@ -37,7 +37,9 @@ open class BaseActivity : AppCompatActivity() {
 
 
     fun hideProgressDialog() {
-        mProgressDialog.dismiss()
+        if (::mProgressDialog.isInitialized) {
+            mProgressDialog.dismiss()
+        }
     }
 
     fun getCurrentUserID(): String {
